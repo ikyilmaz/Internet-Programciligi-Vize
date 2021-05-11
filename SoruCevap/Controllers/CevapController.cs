@@ -7,7 +7,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 
-namespace SoruCevap.Controllers
+namespace SoruCevap.Controllers  
 {
     public class CevapController : ApiController
     {
