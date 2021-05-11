@@ -14,7 +14,7 @@ namespace SoruCevap.Controllers
         Database1Entities db = new Database1Entities();
         SonucModel sonuc = new SonucModel();
 
-        // GET: api/Cevap
+        // GET: api/Cevap 
         public List<CevapModel> Get()
         {
             List<CevapModel> cevaplar = db.Cevaps.Select(x => new CevapModel()
